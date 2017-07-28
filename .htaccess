@@ -1,0 +1,5 @@
+
+# But, for fallback reasons (if you don't route your vhost to /public), it will stay here.
+#Rewrite everything to https
+RewriteEngine On
+RewriteRule ^(.*) public/$1 [L]
