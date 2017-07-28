@@ -1,0 +1,45 @@
+@import 'variables';
+@import 'nav';
+@import 'model';
+@import 'table';
+@import 'tooltip';
+@import 'home-body';
+@import 'footer';
+@import 'gusto-header';
+@import 'gusto-content';
+@import 'users';
+@import 'menu'; 
+@import 'advanced-menu';
+
+
+
+
+
+html{
+    font-size: $font-size;
+    min-width: 600px;
+    font-family: $secondary-font;
+    background-color: white;
+}
+
+body{
+    width:100%;
+    min-width: 600px;
+    margin:0px;
+}
+
+h2{
+    font-size: 1.7em;
+}
+
+h1, h2, h3, h4, h5, h6, h7, h8{
+    text-align: center;
+    font-family:$main-font;
+}
+
+p{
+    text-align: center;
+    font-size: 1.2em;
+    font-family: $secondary-font;
+}
+ 

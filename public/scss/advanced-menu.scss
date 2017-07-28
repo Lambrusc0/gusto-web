@@ -1,0 +1,18 @@
+input[type=text], input[type=password],input[type=email], input[type=number],textarea,select, option{
+        padding:$padding;
+        width:80%;
+        font-size: 1.2em;
+        text-align: center;
+        text-align-last:center;
+    }
+    
+    input[type=submit]{
+        padding:$padding;
+        width:80%;
+        font-size: 1.2em;
+        transition:.3s all;
+        
+        &:hover{
+            box-shadow: $button-shadow;
+        }
+}

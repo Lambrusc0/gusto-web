@@ -1,0 +1,82 @@
+.bold{
+    font-size:$font-size*2;
+}
+
+#gusto-nav-bar{
+    background-color: $secondary-color;
+    padding-top: 80px;
+    flex:1 20%;
+    text-align: left;
+    ul{
+        padding: 0px;
+        width:100%;
+        margin: 0px;
+        background-color: $secondary-color;
+        font-size: $font-size/1.2;
+
+        .active{
+            background-image: url(../images/menu-background.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width:91%;
+        }
+        
+        li{ 
+            margin-left: 10%;
+            padding:7px 0px 7px 0px;
+            width: 90%;
+            font-size: $font-size/1.2;
+            button{
+                text-align: left;
+                width: 100%;
+                font-size: $font-size/1.2;
+                outline: none;
+                padding: 0px;
+                font-family: $secondary-font;
+                border: none;
+                background-color: transparent;
+                color:$white;
+                text-decoration: none;
+                list-style: none;
+                transition: 0.3s all;
+
+                &:hover{
+                    color:red;
+            }
+            }
+            
+            .non-active{
+                width:90%;
+            }
+            
+            a{
+                width: 100%;
+                color:$white;
+                text-decoration: none;
+                list-style: none;
+                transition: 0.3s all;
+
+                &:hover{
+                    color:red;
+                }
+            }
+        }
+    }
+}
+
+
+#info-bar{
+    width:100%;
+    padding: 10px 0px 10px 0px;
+    background-color: $black;
+    color:$white;
+    font-size:$font-size/1.4;
+}
+
+.padding{
+    padding:$padding;
+}
+
+.active{
+    background-image: url(../images/menu-backgroound.jpg);
+}

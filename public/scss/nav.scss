@@ -1,0 +1,64 @@
+
+
+// Styling the logo
+#logo{
+    img{
+        position: absolute;
+        left:30px;
+        top:10px;
+        width:80px;
+        height: auto;
+    }
+}
+
+
+// The navigation bar style
+
+#home-nav-bar{
+    ul{
+        margin: 0px;
+        background-color: $secondary-color;
+        padding: 20px 10px 20px 0px;
+        display: -webkit-flex;
+        display: flex;
+        align-content:center;
+        align-items:flex-start;
+        justify-content:flex-end;
+
+        li{
+
+            display:inline;
+            float:right;
+            margin:$link-vertical-margin;
+
+            button{
+                outline: none;
+                padding: 0px;
+                font-family: $secondary-font;
+                font-size: $font-size;
+                border: none;
+                background-color: transparent;
+                color:$white;
+                text-decoration: none;
+                list-style: none;
+                transition: 0.3s all;
+
+                &:hover{
+                    color:red;
+            }
+            }
+            a{
+                color:$white;
+                padding:$padding;
+                text-decoration: none;
+                list-style: none;
+                transition: 0.3s all;
+
+                &:hover{
+                    color:red;
+                }
+            }
+        }
+    }
+} 
+

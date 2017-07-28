@@ -1,0 +1,12 @@
+
+
+.button{
+    margin:20px;
+    padding:10px;
+    font-size:$font-size;
+    transition: 0.3s;
+    
+    &:hover{
+      box-shadow: $button-shadow; 
+    }
+} 

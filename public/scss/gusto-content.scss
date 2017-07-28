@@ -1,0 +1,25 @@
+#content-ui{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+    
+    min-height:800px;
+}
+
+#display{
+    flex:2 80%;
+    p{
+        
+    }
+    
+}
+
+.non-active{
+    background-image: none;
+    background-color: $black;
+}

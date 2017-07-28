@@ -1,0 +1,28 @@
+.home-image-wrap{
+    background-image: url(../images/champagne-table.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width:100%;
+    height:450px;
+    overflow: hidden;
+}
+    
+#content{
+    text-align: center;
+    
+    li{
+        width:45%;
+        margin: 0px auto;
+        text-align: left;
+    }
+    }
+
+
+
+@media screen and (min-width: 1200px) {
+    .home-image-wrap {
+        background-image: url(../images/champagne-table-high-def.jpg);
+    }
+}
+
